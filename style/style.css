@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Poppins";
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: #be9b7b;
+  font-size: 24pt;
+  font-family: Arial;
+  color: #ccc;
+  text-align: center;
+}
+
+
+.fromName{
+  color: #3c2f2f;
+  font-weight: 700;
+  margin: 20px 0;
+  font-size: 24pt;
+}
+form {
+  position: absolute;
+  font-size: 24pt;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  height: 160px;
+  top: 40vh;
+  color: black;
+}
+
+#myInput {
+  width: 240px;
+  font-size: 24pt;
+  text-align: center;
+  border: 0;
+  border-bottom: dashed 2px black;
+  box-shadow: none;
+  background-color: #be9b7b;
+  outline: none;
+}
+
+#answer {
+  font-size: 32pt;
+  background-color: YellowGreen;
+  color: white;
+  margin-top: 20px;
+  height: 42px;
+  padding: 5px 15px 5px 15px;
+}
+
+#counter {
+  position: absolute;
+  width: 100vw;
+  padding-bottom: 20px;
+  bottom: 0;
+  font-size: 18pt;
+  color: #854442;
+}
+
+#uzbek {
+  display: block;
+  margin-bottom: 10px;
+  color: #854442;
+  font-size: 20pt;
+}
+
+@media only screen and (max-width: 600px) {
+  .fromName{
+    font-size: 32px;
+  }
+}
